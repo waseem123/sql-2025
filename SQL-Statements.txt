@@ -1,0 +1,28 @@
+Entity Relationship Diagram (ER- Diagram)
+Entity?
+    Any real world object to be described based on its properties.
+    Example
+        A school has students, staff, subjects and results
+        In school database
+            students -> rollno, name, dob, gender, city, mobileno, standard
+            staff  -> staffid,name, designation, city, salary, gender, dob, mobileno, email
+            subject -> subjectid, tilte, allocated_staff, subjectype
+            result -> id, subjectid, marks,rollno
+
+1. DDL - Data Definition Language
+    a. CREATE (To create table, database, procedure, function, trigger)
+    b. ALTER (To modify the definition table)
+    c. DROP (To delete the table, column, procedure, function, trigger)
+    d. RENAME (To rename tabl,e database, procedure, function, trigger)
+
+2. DML - Data Manipulation Language
+    a. INSERT (To insert new data / row / record in the table)
+    b. UPDATE (To change / modify a row / data in the table)
+    c. DELETE (To delete one or more rows from the table)
+
+3. DQL - Data Query Language
+    a. SELECT (To fetch all / required data / rows from the table)
+
+4. DCL - Data Control Language
+    a. GRANT (To give the access previlages to the database user)
+    b. REVOKE (To take back the given access previlages from the database user)
