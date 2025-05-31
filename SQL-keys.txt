@@ -1,0 +1,4 @@
+1. Primary Key
+2. Candidate Key
+3. Super Key
+4. Foreign Key
