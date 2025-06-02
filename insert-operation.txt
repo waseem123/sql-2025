@@ -1,0 +1,3 @@
+To insert a row in a table -
+    Syntax - 
+    INSERT INTO <table_name> VALUES(<data 1>,<data 2>,..<data N>);

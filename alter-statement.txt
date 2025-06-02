@@ -11,3 +11,24 @@ To add a column at specific position(After any column) -
 
     Example - 
     ALTER TABLE tbl_student ADD COLUMN stud_email varchar(30) AFTER stud_mobile;
+
+To rename a column in a table - 
+    Syntax - 
+    ALTER TABLE <table_name> CHANGE COLUMN <old_column_name> <new_column_name> datatype(size) constraint;
+
+    Example - 
+    ALTER TABLE tbl_student CHANGE COLUMN stud_mobile stud_mobilenumber varchar(10);
+
+To change the datatype of any column - 
+    Syntax
+    ALTER TABLE <table_name> CHANGE COLUMN <column_name> <column_name> datatype(size);
+
+    Example - 
+    ALTER TABLE tbl_student CHANGE COLUMN stud_mobilenumber stud_mobilenumber int;
+
+To Delete any column from the table - 
+    Syntax - 
+    ALTER TABLE <table_name> DROP COLUMN <existing_column_name>;
+
+    Example - 
+    ALTER TABLE tbl_student DROP COLUMN stud_country;

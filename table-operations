@@ -1,0 +1,28 @@
+To Rename the table - 
+    Syntax - 
+    RENAME TABLE <old_table_name> TO <new_table_name>;
+
+    Example - 
+    RENAME TABLE tbl_student TO studenttable;
+
+To Empty the table data
+    Syntax - 
+    TRUNCATE TABLE <table_name>;
+
+    Example - 
+    TRUNCATE TABLE tbl_student;
+
+
+To Delete / Drop the table 
+    Syntax - 
+    DROP TABLE <existing_table_name>;
+
+    Example - 
+    DROP TABLE studenttable;
+
+To Drop / Delete the database
+    Syntax - 
+    DROP DATABASE <database_name>;
+
+    Example - 
+    DROP DATABASE db_school;
