@@ -1,3 +1,25 @@
 To insert a row in a table -
     Syntax - 
     INSERT INTO <table_name> VALUES(<data 1>,<data 2>,..<data N>);
+
+To insert a data in specific columns - 
+    Syntax - 
+    INSERT INTO <table_name>(column1,column2..columnN)VALUES(value1,value2..valueN);
+    Example-
+    INSERT INTO tbl_student(stud_name,stud_city)VALUES('Robert','Berlin');
+
+To insert multiple rows at a time - 
+    Syntax - 
+    INSERT INTO <table_name>(<column1>,<column2>,..<columnN>)VALUES
+        (<value1>,<value2>,..<valueN>),  //Row number 1
+        (<value1>,<value2>,..<valueN>),  //Row number 2
+        ...
+        (<value1>,<value2>,..<valueN>);  //Row number N
+        
+    Example - 
+    INSERT INTO tbl_student(stud_name,stud_city)VALUES
+        ('Bob','Bejing'),
+        ('Tom','Bejing'),
+        ('Roger','London'),
+        ('Jasper','San Fransisco'),
+        ('Alice','Bejing');
