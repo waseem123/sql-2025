@@ -1,0 +1,14 @@
+DELETE a specific row - 
+    Syntax - 
+    DELETE FROM <table_name> <CONDITION>;
+
+    Example - 
+        1. DELETE FROM tbl_student WHERE stud_roll_no = 15;
+        2. DELETE FROM tbl_student WHERE year(stud_dob)>1999;
+
+DELETE all rows
+    Syntax
+    DELETE FROM <table_name>;
+
+    Example - 
+    DELETE FROM tbl_student;
