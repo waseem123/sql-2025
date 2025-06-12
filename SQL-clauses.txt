@@ -1,0 +1,31 @@
+Clauses determine which and how much data is to be queried from any SQL table
+
+Basic clauses in SQL - 
+
+1. FROM
+    Syntax-
+        select * FROM <table_name>;
+    Example-
+        select * FROM tbl_student;
+
+2. WHERE
+    Syntax-
+        select * FROM <table_name> WHERE <condition>
+    Example-
+        SELECT * FROM tbl_student WHERE stud_city = 'Bejing';
+
+3. GROUP BY
+4. HAVING
+5. ORDER BY
+    Syntax-
+        SELECT * FROM <table_name> ORDER BY <column_1> order,<column_2> order,..<column_n> order;
+    Example-
+        1.SELECT * FROM tbl_student ORDER BY stud_dob desc;
+        2.SELECT * FROM tbl_student ORDER BY stud_name desc,stud_dob desc;
+        3.SELECT * FROM tbl_student order by stud_city;
+
+6. LIMIT
+    Syntax-
+        SELECT * FROM <table_name> LIMIT <number_of_rows_to_fetch>;
+    Example-
+        SELECT * FROM tbl_student order by stud_roll_no desc limit 12;
