@@ -1,0 +1,9 @@
+There are 5 Aggregate Functions
+1. SUM - To perform summation of all values in a column
+2. MIN - To find out the minimum value from a column
+3. MAX - To find out the maximum value from a column
+4. COUNT - To count the no. of records for a specific criteria
+5. AVG - To calculate the average value from a given column
+
+Syntax - 
+    SELECT aggregate_function(<column_name>) FROM <table_name>;
